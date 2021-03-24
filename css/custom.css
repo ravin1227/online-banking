@@ -1,0 +1,723 @@
+.banner{
+    background-color:#e1f0c4 ;
+    height: 250px;
+}
+.poster img{
+    height: 450px;
+    width: 650px;
+    margin-top: 25px;
+    border: solid sienna 5px;
+}
+
+.banner_area h2{
+    font-weight: bold;
+    font-size: 75px;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+.login-logout a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left:580px;
+}
+.login-logout a:hover{
+    color:#f97068 ;
+    text-decoration: none;
+}
+.services_sidebar{
+    margin-top: 15px;
+}
+.welcome_sidebar {
+ margin-top:15px;
+}
+.welcome_sidebar img{
+ width: 200px;
+ height: 200px;
+ margin-left: 90px;
+ margin-top:15px;
+}
+.welcome_sidebar p{
+    margin: 15px auto;
+}
+
+.scroolnotice{
+    margin-top: 15px;
+    width: 100%;
+    height: 22px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.scroolnotice p{
+    font-size: 20px;
+    position: relative;
+    animation-name: mymove;
+    animation-direction: alternate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove{
+    from {left:800px;}
+    to {left:0px;}
+}
+.footer{
+    width: 100%;
+    height: 28px;
+    margin-top: 20vh;
+    background-color: rgb(53, 50, 50);
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
+
+.home_tranfer_form{
+    padding: 0 30px;
+    margin-top: 15px;
+}
+.home_tranfer_form .card{
+    color: #fff;
+    background-color: #4F4789;
+  box-shadow: 0 4px 8px 0 #323232;
+  transition: 0.3s;
+  margin-top: 15px;
+  margin-right: 35px;
+  height: 250px;
+  width: 450px;
+  padding: 25px;
+}
+.home_tranfer_form .card div{
+ margin-top: 5px;
+}
+.home_tranfer_form .card .account_no{
+ margin-left: 67px;
+}
+.home_tranfer_form .card .user_name{
+ margin-left: 76px;
+}
+.home_tranfer_form .card .password{
+ margin-left: 88px;
+}
+.home_tranfer_form .card .receiver_account_no{
+ margin-left: 50px;
+}
+.home_tranfer_form .card .amount{
+ margin-left: 96px;
+}
+.home_tranfer_form .card input{
+    border-radius: 25px;
+    border: none;
+    
+}
+
+.home_tranfer_form .card button{
+    color: #fff;
+    background-color: #f97068;
+    border:none;
+    border-radius: 25px;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.home_tranfer_form .card .buttons{
+    margin-right: 100px ;
+}
+.warning .card{
+    color: #fff;
+    background-color: #4F4789;
+      box-shadow: 0 4px 8px 0 #323232;
+      transition: 0.3s;
+      margin-top: 15px;
+      height: 350px;
+      padding: 25px;  
+}
+
+.log_in_form .card{
+ color: #fff;
+background-color: #4F4789;
+  box-shadow: 0 4px 8px 0 #323232;
+  transition: 0.3s;
+  margin-top: 75px;
+  margin-left: 400px;
+  height: 250px;
+  width: 450px;
+  padding: 25px;
+
+}
+.log_in_form .card h5{
+    margin-left: 100px;
+
+}
+.log_in_form .card form{
+    margin-left: 65px;
+    margin-top: 25px;
+}
+.log_in_form .card form .login_username{
+    margin-left: 35px;
+}
+.log_in_form .card form .login_pwd{
+    margin-left: 40px;
+}
+.log_in_form .card form .login__pwd{
+    margin-top: 10px;
+}
+
+.log_in_form .card form input{
+    border: none;
+    border-radius: 25px;
+}
+
+.log_in_form .card form button{
+    margin-top: 15px;
+    border: none;
+    border-radius: 25px;
+    width: 75px;
+    height: 30px;
+    margin-left: 113px;
+}
+.login_btn{
+    margin-top: 25px;
+    margin-left: 115px;
+    width: 75px;
+    height: 30px;
+}
+
+.warning_notice{
+    background-color: lightblue;
+  width: 310px;
+  height: 60px;
+  overflow: auto;
+}
+.warning_notice h6{
+    color: red;
+}
+.alert-danger {
+    text-align: center;
+}
+.alert{
+    margin: unset;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.landing_btn{
+    margin-top: 15px;
+    float: right;
+    margin-right: 10px;
+}
+
+.landing_btn button{
+    margin-right: 15px;
+    color: white;
+    background-color: rgb(3,12,69);
+}
+
+.android{
+    position: absolute;
+    width: 195px;
+    height: 60px;
+    top: -150px;
+    left: 150px;
+}
+.ios{
+    position: absolute;
+    width: 195px;
+    height: 60px;
+    top: -150px;
+    left: 355px;
+}
+.new_account .card{
+    color: #fff;
+background-color: #4F4789;
+  box-shadow: 0 4px 8px 0 #323232;
+  transition: 0.3s;
+  margin-top: 55px;
+  margin-left: 320px;
+  height: auto;
+  width: 650px;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.new_account .card div{
+    margin-top: 10px;
+}
+.new_account .card h5{
+    margin-bottom: 25px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f97068;
+}
+.new_account .card input{
+    border: none;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+.new_account .card select{
+    border: none;
+    border-radius: 3px;
+    padding-left: 15px;
+
+}
+.new_account .card .c_name .f_name {
+    margin-left: 105px;
+}
+.new_account .card .c_date input {
+    margin-left: 55px;
+}
+.new_account .card .c_mobile input {
+    margin-left: 75px;
+}
+.new_account .card .c_email input {
+    margin-left: 90px;
+}
+.new_account .card .c_gender input {
+    margin-left: 93px;
+}
+.new_account .card .c_aadhar input {
+    margin-left: 70px;
+}
+.new_account .card .c_opening_amount input {
+    margin-left: 22px;
+}
+.new_account .card .c_occupation input {
+    margin-left: 11px;
+}
+.new_account .card .c_username input {
+    margin-left: 74px;
+}
+.new_account .card .c_password input {
+    margin-left: 78px;
+}
+
+.new_account .card .address textarea {
+    border: none;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding-left: 15px;
+    width: 390px;
+    height: 30px;
+}
+.new_account .card .errorMsg {
+    color: red;
+    margin-left: 155px;
+}
+.new_account .card .address  input {
+    margin-bottom: 5px;
+}
+.new_account .card .address  .address_c {
+    border: none;
+    margin-left: 65px;
+}
+.new_account .card .address  .address_p {
+    border: none;
+    margin-left: 65px;
+}
+.new_account .card .open_account input {
+    margin-top: 15px;
+    margin-left: 150px;
+    border: none;
+    height: 29px;
+    border-radius: 25px;
+    background-color: #fffded;
+    width: 175px;
+}
+
+
+.money_transfer .card{
+      color: #fff;
+      background-color: #4F4789;
+      box-shadow: 0 4px 8px 0 #323232;
+      transition: 0.3s;
+      margin-top: 55px;
+      margin-left: 75px;
+      height: auto;
+      width: 520px;
+      padding: 50px;
+      border-radius: 15px;
+}
+.money_transfer .card h5{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.money_transfer .card input{
+    border: none;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+.money_transfer .card span{
+    font-weight: bold;
+}
+.money_transfer .card div{
+    margin-bottom:5px ;
+}
+.money_transfer .card .t_from input{
+    margin-left:127px ;
+}
+.money_transfer .card .t_account_num input{
+    margin-left:77px ;
+}
+.money_transfer .card .t_account_name input{
+    margin-left:55px ;
+}
+.money_transfer .card .t_amount input{
+    margin-left:105px ;
+}
+.money_transfer .card .t_pwd input{
+    margin-left:30px ;
+}
+.money_transfer .card .t_submit button{
+    margin-left:170px ;
+    margin-top: 15px;
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    height: 30px;
+}
+.balnce_check .card{
+    color: #fff;
+    background-color: #4F4789;
+    box-shadow: 0 4px 8px 0 #323232;
+    transition: 0.3s;
+    margin-top: 55px;
+    margin-left: 75px;
+    height: auto;
+    width: 500px;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.balnce_check .card h5{
+    font-weight: bold;
+}
+.balnce_check .card .bcheck span{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.balnce_check .card .bcheck input{
+    border: none;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    height: 35px;
+    text-align: center;
+}
+.balnce_check .card .bcheck input:hover{
+   cursor: inherit;
+}
+.balnce_check .card .bcheck_button button{
+  border: none;
+  border-radius: 25px;
+  margin-top: 15px;
+  width: 155px;
+  height: 30px;
+  margin-left: 25px;
+}
+.last_transaction .card{
+    color: #fff;
+    background-color: #4F4789;
+    box-shadow: 0 4px 8px 0 #323232;
+    transition: 0.3s;
+    margin-top: 55px;
+    margin-left: 15px;
+    height: auto;
+    width: 750px;
+    padding: 50px;
+    border-radius: 15px; 
+}
+.last_transaction .card h5{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.last_transaction .card span{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.last_transaction .card input{
+    border: none;
+   height: 30px;
+    border-radius: 3px;
+    margin-right: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.last_transaction .card input:hover{
+    cursor: inherit;
+}
+.last_transaction .card div{
+   margin-bottom: 10px;
+}
+.last_transaction .card .last_t_to input{
+   margin-top: 10px;
+   margin-left: 50px;
+}
+.last_transaction .card .last_t_amount input{
+   margin-top: 10px;
+   margin-left: 50px;
+}
+.last_transaction .card .last_t_date input{
+   margin-top: 10px;
+   margin-left: 50px;
+}
+
+.all_trans .card {
+    color: #fff;
+    background-color: #4F4789;
+    box-shadow: 0 4px 8px 0 #323232;
+    transition: 0.3s;
+    margin-top: 55px;
+    margin-left: 15px;
+    height: auto;
+    width: 1120px;
+    padding: 30px;
+    border-radius: 15px; 
+}
+.all_trans .card h5{
+    text-transform: uppercase;
+     font-weight: bold;
+}
+
+.all_trans .card input {
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.all_trans .card input:hover {
+   cursor: initial;
+}
+
+.deposite_money .card{
+    color: #fff;
+    background-color: #4F4789;
+    box-shadow: 0 4px 8px 0 #323232;
+    transition: 0.3s;
+    margin-top: 55px;
+    margin-left: 75px;
+    height: auto;
+    width: 850px;
+    padding: 30px;
+    border-radius: 15px; 
+}
+.deposite_money .card button{
+    border: none;
+    border-radius: 25px;
+    width: 75px;
+    font-weight:bold ;
+    text-transform: uppercase;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 290px;
+}
+.deposite_money .card button:hover{
+    cursor: pointer;
+}
+ .card_deposite_amount span{
+    margin-top: 15px ;
+}
+.deposite_money .card .card_deposite_amount input{
+    border: none;
+    margin-top:15px ;
+    border-radius: 3px;
+
+}
+.card_deposite_amount input{
+    margin-left: 25px;
+    text-align: center;
+}
+
+.card_design .card{
+    width: 450px;
+    height: 250px;
+    background: linear-gradient(to bottom right,#274B74 0%, #8233c5 50%, #e963fd 100%);
+    font-family: "monsterrat",sans-serif;
+    overflow: hidden;
+    margin-top: -5px;
+    margin-left: 55px;
+}
+.card_design .card input{
+   border: none;
+   border-radius: 4px;
+   text-align: start;
+   background: transparent;
+
+}
+.card_design .card input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+.card_design .card .card_cardno input{
+    margin-top: 65px;
+    width: 200px;
+    font-size: 19px;
+}
+.card_design .card .card_valid_upto {
+    margin-left: 250px;
+}
+.card_design .card .card_valid_upto input{
+    margin-top: 10px;
+    width: 45px;
+}
+.card_design .card .card_card_holdern input{
+    margin-top: 15px;
+    margin-left: -3px;
+    font-size: 19px;
+    width: 250px;
+}
+.myprofile_mainImg{
+    height: 200px;
+    width: 200px;
+    border-radius: 35%;
+}
+.profileImg{
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    background-color: #f59042;
+    color: white;
+    width: 200px;
+}
+.uploadphoto{
+    border: none;
+    width: 150px;
+    border-radius: 4px;
+
+}
+.removepButton{
+    margin-bottom: 15px;
+    width: 150px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+/* .my_profile_update button{
+    border: none;
+    border-radius: 4px;
+    height: 27px;
+    background-color: #f59042;
+    color: white;
+} */
+.customers_id input{
+    margin-left: 75px;
+    border: none;
+}
+.account_num input{
+    margin-left: 45px;
+    border: none;
+}
+.customers_name h5{
+    text-transform: uppercase;
+}
+.profile_detals div{
+    margin-top: 3px;
+}
+.profile_detals input{
+    height:32px ;
+}
+.scheme_details{
+    margin-bottom: 50px;
+}
+.scheme_details div{
+    margin-top: 10px;
+}
+#div{
+    display: block;
+}
+.scroolnotice img{
+    /* margin: 0; */
+    max-width: 540px;
+    height: 350px;
+    min-width: 150px;
+    margin-bottom: 15px;
+    /* position: absolute; */
+}
+.virual_card input{
+    margin-top: 10px;
+    height:32px ;
+
+}
+.password_input {
+    margin-left: 100px;
+    border: none;
+
+}
+.password_btn{
+    margin-left: 3px;
+}
+.mobile_input {
+    margin-left: 61px;
+    border: none;
+
+}
+.mobile_input::placeholder{
+    color: black;
+    opacity: 1; 
+    font-size: 15px;
+
+}
+.email_input {
+    margin-left: 132px;
+    border: none;
+
+}
+.email_input::placeholder{
+    color: black;
+    opacity: 1; 
+    font-size: 15px;
+
+}
+.occupation_input input{
+    margin-left: 35px;
+    border: none;
+
+}
+.occupation_input ::placeholder{
+    color: black;
+    opacity: 1; 
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.address_detail textarea{
+    margin-left: 171px;
+    width: 350px;
+    height: 100px;
+    border: none;
+}
+.address_detail textarea::placeholder{
+    color: black;
+}
+.address_detail span{
+    position: absolute;
+    margin-top: 15px;
+}
+.vCard_input{
+    margin-left: 12px;
+    border: none;
+}
+.vCvv_input{
+    margin-left: 75px;
+    border: none;
+}
+.vValid_input{
+    margin-left: 32px;
+    border: none;
+}
+.vPin_input{
+    margin-left: 80px;
+    border: none;
+}
+
